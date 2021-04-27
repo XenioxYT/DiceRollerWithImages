@@ -1,0 +1,11 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Code Check
+
+on: [pull_request, push]
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout the code
+        uses: actions/checkout@v2
