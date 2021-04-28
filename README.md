@@ -1,4 +1,4 @@
-# Dice_Roller
+# DiceRollerWithImages
 ![Build](https://github.com/XenioxYT/DiceRollerWithImages/actions/workflows/build-app.yml/badge.svg)
 ![Code Check](https://github.com/XenioxYT/DiceRollerWithImages/actions/workflows/CheckCode.yml/badge.svg)
 
