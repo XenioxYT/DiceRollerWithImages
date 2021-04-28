@@ -3,6 +3,7 @@
     <string name="button">Button</string>
     <string name="roll_dice">Roll Dice</string>
 
-    <string name="roll_2_dice">Roll 2 Dice</string>
+    <string name="roll_2_dice">Roll Dice</string>
+    <string name="todo">TODO</string>
 
 </resources>
