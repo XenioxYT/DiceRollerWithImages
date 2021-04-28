@@ -2,10 +2,7 @@ package com.example.diceroller
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
-import android.widget.ImageView
-import android.widget.Switch
-import android.widget.TextView
+import android.widget.*
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -28,6 +25,7 @@ class MainActivity : AppCompatActivity() {
             5 -> R.drawable.dice_5
             else -> R.drawable.dice_6 // when has to be exhaustive
         }
+        Toast.makeText(this,diceRoll,Toast.LENGTH_SHORT).show()
         diceImage.setImageResource(diceNumber) // set the imageView to the diceNumber (the number rolled and the correct image)
         diceImage.contentDescription = diceRoll.toString() // Sets the content description of the image to the correct number
     }
